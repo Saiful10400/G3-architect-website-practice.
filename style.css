@@ -81,14 +81,28 @@ nav{
     flex-direction: column;
     gap: 50px;
 }
-
-/* font fix */
-h1{
-    font-size: 2rem;
+nav ul li>a{
+    font-size: 5vw;
+}
+nav h1{
+    font-size: 13vw;
 }
 
+/* font fix */
+#banner h1{
+    font-size: 12vw;
+}
+
+#banner p{
+    font-size: 4vw;
+}
 .banner-title{
     width: 80%;
+}
+
+.primary-btn{
+    font-size: 4vw;
+    padding: 5vw 3vw;
 }
     
 } 
