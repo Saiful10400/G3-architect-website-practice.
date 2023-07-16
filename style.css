@@ -74,6 +74,11 @@ nav ul li a{
 /* media queri for header section */
 
 @media screen and (max-width:576px) {
+
+    *{
+        padding: 0;
+        margin: 0;
+    }
 header{
     padding: 20px;
 }
